@@ -96,9 +96,6 @@ commands:
       group:
         kind: test
         isDefault: true
-  - id: deploybuild
-    apply:
-      component: mydockerfileimage
   - id: deployk8s
     apply:
       component: myk8sdeploy
